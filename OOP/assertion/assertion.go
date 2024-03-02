@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // interface{} 万能数据类型
 // 采用类型断言机制
