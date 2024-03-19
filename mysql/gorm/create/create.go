@@ -6,8 +6,9 @@ import (
 )
 
 type User struct {
-	ID   int64
-	Name string
+	ID int64
+	//不指定默认 且不设置 则为空
+	Name string `gorm:"default:'gg'"`
 	Age  int64
 }
 
@@ -19,7 +20,7 @@ func main() {
 	}
 	db.AutoMigrate(&User{})
 
-	u := User{Name: "www", Age: 12}
+	u := User{Name: "ssa", Age: 122}
 	db.Create(&u)
 
 }

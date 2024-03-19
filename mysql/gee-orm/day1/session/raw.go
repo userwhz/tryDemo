@@ -3,7 +3,7 @@ package session
 import (
 	"database/sql"
 	"strings"
-	"tryDemo/mysql/gee_orm/day1/log"
+	"tryDemo/mysql/gee-orm/day1/log"
 )
 
 // 数据库交互
@@ -36,7 +36,7 @@ func (s *Session) Raw(sql string, values ...interface{}) *Session {
 	return s
 }
 
-func (s *Session) Exec(result sql.Result, err error) {
+func (s *Session) Exec() (result sql.Result, err error) {
 	defer s.Clear()
 	log.Info(s.sql.String(), s.sqlVars)
 	if result, err = s.DB().Exec(s.sql.String(), s.sqlVars...); err != nil {

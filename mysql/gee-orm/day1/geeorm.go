@@ -2,8 +2,8 @@ package geeorm
 
 import (
 	"database/sql"
-	"tryDemo/mysql/gee_orm/day1/log"
-	"tryDemo/mysql/gee_orm/day1/session"
+	"tryDemo/mysql/gee-orm/day1/log"
+	"tryDemo/mysql/gee-orm/day1/session"
 )
 
 // 用户交互
@@ -33,6 +33,6 @@ func (engine *Engine) Close() {
 	log.Info("Close database success")
 }
 
-func (engine *Engine) NewSuccession() *session.Session {
+func (engine *Engine) NewSession() *session.Session {
 	return session.New(engine.db)
 }
