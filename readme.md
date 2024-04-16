@@ -6,6 +6,13 @@
 3.19-3.24 小林os
 3.25-3.29 小林network
 3.30-4.4 极客时间mq
-4.5- 极客时间redis
+4.5-4.16 极客时间redis
+4.17- 极客时间 后端存储
 极客时间mysql
 极客时间后端存储
+gin
+geeorm
+context
+go基础原理
+grpc
+etcd
