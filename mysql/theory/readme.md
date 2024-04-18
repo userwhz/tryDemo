@@ -5,4 +5,4 @@
 博客 https://blog.csdn.net/qq_53868937/article/details/130165287
 
 小林 https://xiaolincoding.com/mysql/
-极客时间 https://time.geekbang.org/column/article/68319 
+极客时间 https://time.geekbang.org/column/intro/100020801
