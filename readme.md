@@ -1,5 +1,5 @@
 2024
-go mysql redis os network mq rpc distributed 
+go os network mysql redis mq rpc distributed 
 
 2.28-3.2 transform
 3.3-3.5 gorm
@@ -11,13 +11,13 @@ go mysql redis os network mq rpc distributed
 4.5-4.10 极客时间redis 
 4.11-4.15 分布式
 4.16-4.19 极客时间后端存储
-4.20-4.23 极客时间分布式协议与算法
-4.24- 极客时间分布式技术原理与算法解析
- 极客时间RPC
- 极客时间高并发系统
- 极客时间mysql
+4.20-4.24 极客时间分布式技术原理与算法解析
+4.25-5.1 极客时间高并发系统 
+5.2-5.6 极客时间分布式协议与算法
+5.7-5.10 极客时间RPC
+5.11-5.13 极客时间mysql
+5.14- gin
 
-gin
 geeorm
 context
 go theory
