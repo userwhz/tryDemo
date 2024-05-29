@@ -19,4 +19,5 @@ func main() {
 			fmt.Println(index, value)
 		}
 	}
+	fmt.Println(slice1[:1])
 }

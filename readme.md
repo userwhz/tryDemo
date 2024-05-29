@@ -16,11 +16,17 @@ go os network mysql redis mq rpc distributed
 5.7-5.10 极客时间RPC
 5.11-5.13 极客时间mysql
 5.14-5.15 gin
-5.16-  go源码 （http io context gmp gc gin ants channel sync.Mutex）
- map sync.Map slice sync.WaitGroup sql
+5.16-  go源码 （http io context gmp gc gin ants channel sync.RW/Mutex slice）
+ map sync.Map sync.WaitGroup sql
 
-
-gee教程
+分布式锁
+分布式事务
+共识算法
+go-redis
+go-edct
 grpc
-etcd
+mq redis实现 nsq
+设计模式
+数据结构 lsm geohash 前缀树 trie 布隆过滤器 跳表 一致性hash
+gee教程
 linux
