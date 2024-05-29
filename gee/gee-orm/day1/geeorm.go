@@ -2,8 +2,8 @@ package geeorm
 
 import (
 	"database/sql"
-	"tryDemo/mysql/gee-orm/day1/log"
-	"tryDemo/mysql/gee-orm/day1/session"
+	"tryDemo/gee/gee-orm/day1/log"
+	"tryDemo/gee/gee-orm/day1/session"
 )
 
 // 用户交互

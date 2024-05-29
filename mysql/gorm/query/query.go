@@ -21,5 +21,4 @@ func main() {
 	db.AutoMigrate(&User{})
 	var user User
 	db.Debug().First(&user)
-
 }

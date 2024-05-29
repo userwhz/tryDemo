@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
-	geerom "tryDemo/mysql/gee-orm/day1"
+	geerom "tryDemo/gee/gee-orm/day1"
 )
 
 func main() {
