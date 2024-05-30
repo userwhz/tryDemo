@@ -3,7 +3,7 @@ package session
 import (
 	"database/sql"
 	"strings"
-	"tryDemo/gee/gee-orm/day1/log"
+	"tryDemo/project/gee/gee-orm/day1/log"
 )
 
 // 数据库交互

@@ -1,26 +1,24 @@
-2024
-go os network mysql redis mq rpc distributed 
+2024 2.28-
+go transform gorm gin 原理（http io context gmp gc gin ants channel sync.RW/Mutex slice ）
+os 小林os
+network 小林network
+mysql mysql视频+小林mysql 极客时间mysql
+redis 小林redis 极客时间redis
+mq 极客时间mq
+rpc 极客时间RPC
+distributed 极客时间分布式技术原理与算法解析 极客时间分布式协议与算法
+project 极客时间后端存储 极客时间高并发系统 git原理
+datastructure 
 
-2.28-3.2 transform
-3.3-3.5 gorm
-3.6-3.10 mysql视频+小林mysql
-3.11-3.18 小林redis
-3.19-3.24 小林os
-3.25-3.29 小林network
-3.30-4.4 极客时间mq
-4.5-4.13 极客时间redis 
-4.14-4.19 极客时间后端存储
-4.20-4.24 极客时间分布式技术原理与算法解析
-4.25-5.1 极客时间高并发系统 
-5.2-5.6 极客时间分布式协议与算法
-5.7-5.10 极客时间RPC
-5.11-5.13 极客时间mysql
-5.14-5.15 gin
-5.16-  go源码 （http io context gmp gc gin ants channel sync.RW/Mutex slice）
- map sync.Map sync.WaitGroup sql
 
+5.16-  
+ map sync.Map sync.WaitGroup sql 
+
+
+
+Todolist
 分布式锁
-分布式事务
+分布式事务 
 共识算法
 go-redis
 go-edct
