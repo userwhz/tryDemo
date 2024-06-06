@@ -25,5 +25,4 @@ func main() {
 	user.Age = 12
 	db.Debug().Save(&user)
 	db.Debug().Model(&user).Update("name", "hello")
-
 }
