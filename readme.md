@@ -26,13 +26,17 @@ distributed
 极客时间分布式技术原理与算法解析 极客时间分布式协议与算法
 
 project 
-极客时间后端存储 极客时间高并发系统 git原理
+极客时间后端存储 极客时间高并发系统 git原理 
 
 datastructure
-6.6 gee教程
+
+
+6.6 seven-gee
+
 
 Todolist
-
+go语言设计与实现
+go语言原本
 分布式锁
 分布式事务 
 共识算法
