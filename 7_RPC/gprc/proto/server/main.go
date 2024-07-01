@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"net"
-	greeter "tryDemo/6_rpc/gprc/proto"
+	greeter "tryDemo/7_RPC/gprc/proto"
 
 	"google.golang.org/grpc"
 )

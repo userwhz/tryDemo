@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"log/slog"
-	greeter "tryDemo/6_rpc/gprc/proto"
+	greeter "tryDemo/7_RPC/gprc/proto"
 )
 
 func main() {

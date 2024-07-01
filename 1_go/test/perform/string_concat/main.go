@@ -33,6 +33,21 @@ func sprintfConcat(n int, str string) string {
 	return s
 }
 
+//	func builderConcat(n int, str string) string {
+//		var builder strings.Builder
+//		for i := 0; i < n; i++ {
+//			builder.WriteString(str)
+//		}
+//		return builder.String()
+//	}
+func builderConcat(n int, str string) string {
+	var builder strings.Builder
+	builder.Grow(n * len(str))
+	for i := 0; i < n; i++ {
+		builder.WriteString(str)
+	}
+	return builder.String()
+}
 func bufferConcat(n int, s string) string {
 	buf := new(bytes.Buffer)
 	for i := 0; i < n; i++ {
@@ -47,14 +62,6 @@ func byteConcat(n int, str string) string {
 		buf = append(buf, str...)
 	}
 	return string(buf)
-}
-
-func builderConcat(n int, str string) string {
-	var builder strings.Builder
-	for i := 0; i < n; i++ {
-		builder.WriteString(str)
-	}
-	return builder.String()
 }
 
 func preByteConcat(n int, str string) string {
