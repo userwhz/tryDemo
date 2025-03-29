@@ -4,9 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"testing"
-
 	// 注册 4_MySQL 数据库驱动
-	_ "github.com/1_go-sql-driver/4_MySQL"
 )
 
 type user struct {
